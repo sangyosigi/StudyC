@@ -18,11 +18,14 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{3B8FEF14-6BCC-43B9-86E5-BB35EFFC8311}</ProjectGuid>
+    <ProjectGuid>{bf280822-8aa5-46f1-9f0c-f497fbc34431}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>FirstApp</RootNamespace>
+    <RootNamespace>_213213</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

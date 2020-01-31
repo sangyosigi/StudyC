@@ -6,17 +6,19 @@
 #include <stdlib.h>
 
 int main() {
-	printf("%d\n",10);
-	printf("%lf\n",3.4);
-	printf("%.1lf\n",3.45);
-	printf("%0.10lf\n",3.4);
-	
-	printf("%d과 %d의 합은 %d입니다.\n",10,20,10+20);
-	printf("%.1lf-%.1lf = %.1lf\n",3.4,1.2,3.4-1.2);
-	
-	//type here
+	short sh = 32767;
+	int in = 2147483647;
+	long ln =2147483647;
+	long long lln = 1234561234512345;
+	unsigned int ui = 4294967295;
 
-
+	printf("short 최대값%d\n", sh);
+	printf("int 최대값%d\n", in);
+	printf("long 최대값%1d\n",ln);
+	printf("long long 최대값%11d\n", lln);
+	printf("unsigned int 최대값 %d\n", ui);
+	ui = -1;
+	printf("unsigned int 현재값 %u\n", ui);
 	system("pause");
 		 return 0;
 }     
