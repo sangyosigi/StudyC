@@ -21,13 +21,15 @@
   <ItemGroup>
     <ClCompile Include="main.c" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="a.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{4b6f61ce-dcd8-4bee-9814-9bba70e0f025}</ProjectGuid>
+    <ProjectGuid>{8a7a1168-b18c-4423-ae10-0249bafa0fc3}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>CTempRebuild4</RootNamespace>
+    <RootNamespace>FileTestApp</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>DynamicMemApp</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

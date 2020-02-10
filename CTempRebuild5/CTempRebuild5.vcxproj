@@ -23,11 +23,11 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{4b6f61ce-dcd8-4bee-9814-9bba70e0f025}</ProjectGuid>
+    <ProjectGuid>{a037f256-5c87-4c20-8797-66d9ee25158f}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>CTempRebuild4</RootNamespace>
+    <RootNamespace>CTempRebuild5</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>DynamicMemApp</ProjectName>
+    <ProjectName>DynamicStrApp</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

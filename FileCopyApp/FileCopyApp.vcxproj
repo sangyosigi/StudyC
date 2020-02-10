@@ -21,13 +21,16 @@
   <ItemGroup>
     <ClCompile Include="main.c" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="aa.txt" />
+    <Text Include="aaa.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{4b6f61ce-dcd8-4bee-9814-9bba70e0f025}</ProjectGuid>
+    <ProjectGuid>{b6de652a-f6fb-4cbe-8d75-b55d2e559812}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>CTempRebuild4</RootNamespace>
+    <RootNamespace>FileCopyApp</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>DynamicMemApp</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
