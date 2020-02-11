@@ -23,7 +23,7 @@ int main(void)
 		{
 			printf("5%d", score[i][j]);
 		}	printf("\n");*/
-	char animal[5][20];
+	/*char animal[5][20];
 	int count;
 	count = sizeof(animal) / sizeof(animal[0]);
 
@@ -34,7 +34,7 @@ int main(void)
 	for (int i = 0; i < count; i++)
 	{
 		pintf("%s", animal[i]);
-	}
+	}*/
 
 	//int total;
 	//    double avg;
