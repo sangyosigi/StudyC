@@ -23,8 +23,7 @@ int main(void)
 
 	//int a = 0;
 	//int* pa;
-
-	//pa = &a;
+    //pa = &a;
 	//*pa = 10;
 	//printf("a狼林家:%u\n", &a);
 	//printf("pa狼林家:%u\n", &pa);
@@ -34,8 +33,7 @@ int main(void)
 
 	//scanf("%d", pa);
 	//printf("%d\n", a);
-	
-	/*int a = 10, b = 20, total;
+		/*int a = 10, b = 20, total;
 	double avg;
 	int* pa, * pb;
 	int* pt = &total;
@@ -57,7 +55,7 @@ int main(void)
 	//printf("a 蔼 : %d\n", *pa);
 	//printf("%d %d\n", a,b);
 	//
-	
+
 	/*char ch;
 	int in;
 	double db;
@@ -69,7 +67,7 @@ int main(void)
 	printf("ch size: %u\n", sizeof(ch));
 	printf("in size: %u\n", sizeof(in));
 	printf("db size: %u\n", sizeof(db));
-	
+
 	printf("pc size: %u\n", sizeof(pc));
 	printf("pi size: %u\n", sizeof(pi));
 	printf("pd size: %u\n", sizeof(pd));*/
